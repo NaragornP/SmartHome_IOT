@@ -87,7 +87,7 @@ void loop() {
         digitalWrite(LED, HIGH);
         light=1;
         countLDR = "ON";
-      }else if (sensorLDR>300){
+      }else if (sensorLDR>280){
         digitalWrite(LED, LOW);
         light = 0;     
         countLDR = "OFF";
